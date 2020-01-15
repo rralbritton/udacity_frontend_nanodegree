@@ -1,0 +1,90 @@
+body {
+    background: #ffffff url('../images/backgroundImage.png');
+    background-size: 100%;
+    overflow: hidden;
+}
+.canvas {
+    margin-top: 10px;
+    padding: 0 50px;
+    box-shadow: 0 0 5px 5px #383838;
+}
+.gameBoard, .canvas {
+    display: none;
+}
+/* Scoreboard */
+hr {
+    margin: 1em 1em 1em 0;
+    border: 0;
+    border-top: 1px solid #8c7f7f;
+}
+.fa-bug {
+    text-shadow: 0 0 10px;
+    color: #945927;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.fa-gem {
+    padding: 5px;
+}
+.orange-gem {
+    color: orange;
+}
+.green-gem {
+    color: green;
+}
+.blue-gem {
+    color: blue;
+}
+.scoreboard {
+    display: none;
+    float: left;
+    height: 500px;
+    width: 150px;
+    border-radius:5px;
+    margin: 50px 100px;
+    background-color: lightgray;
+    padding-left: 20px;
+    box-shadow: 0 0 30px #000;
+}
+.scoreboardImage {
+    width: 80%;
+}
+.scoreboard ul {
+    padding-left: 0;
+}
+.scoreboard li {
+    list-style: none;
+    display: inline-block;
+}
+.fa-heart:before {
+    color: red;
+    text-shadow: 2px 2px 2px #000;
+    font-size: 22px;
+}
+/* Modals */
+.gameOver, .winner, .welcome {
+    margin: 10em;
+    border: solid 1px #8c7f7f;
+    background: gold;
+    text-align: center;
+    box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+    border-radius:10px;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+}
+.gameOver, .winner {
+    display: none;
+}
+.welcome {
+    display: block;
+}
+.playAgain, .startGame {
+    width: 50%;
+    height: 40px;
+    margin: 20px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+    text-align: center;
+}

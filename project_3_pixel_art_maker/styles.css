@@ -1,0 +1,65 @@
+html, body {
+    position: relative;
+    text-align: center;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    text-align: center;
+}
+
+h3 {
+    margin: 1em 0 1em 1em;
+    text-align: left;
+}
+table,
+tr,
+td {
+    border: 1px solid #000;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 50px;
+}
+
+td {
+    width: 50px;
+}
+
+input[type=number] {
+    width: 6em;
+}
+
+.col-md-4 {
+    border-right: solid 1px #000;
+    border-bottom:solid 1px #000;
+    background-color: lightblue;
+}
+#menu {
+    height: 100%;
+    border-top: solid 1px #000;
+}
+#colorPicker {
+    float: right;
+}
+#containedTable {
+    width: 100%;
+    overflow-x: auto;
+}
+#clrBtn {
+    width: 80%;
+    height: 35px;
+}
+#submit {
+    width: 80%;
+    height: 35px;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Pixel Art Maker!</title>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
+
+    <!--Bootstrap 3.3.7 CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!--Site specific css-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Pixel Art Maker</h1>
+        </div>
+    </div>
+    <div class="row" id="menu">
+        <div class="col-md-4">
+            <h3>Choose Grid Size</h3>
+            <div id="sizePicker">
+                Grid Height:
+                <input type="number" id="inputHeight" name="height" min="1" value="1"><br><br> Grid Width:
+                <input type="number" id="inputWeight" name="width" min="1" value="1"><br><br>
+                <button id="submit">Submit</button>
+            </div>
+            <div class="colorWrapper">
+                <h3>Pick A Color
+                    <input type="color" id="colorPicker">
+                </h3>
+            </div>
+            <button id="clrBtn">Clear Canvas</button>
+        </div>
+        <div class="col-md-8">
+            <h3>Design Canvas</h3>
+            <div id="containedTable">
+                <table id="pixelCanvas"></table>
+            </div>
+        </div>
+    </div>
+    <script src="designs.js"></script>
+</body>
+
+</html>

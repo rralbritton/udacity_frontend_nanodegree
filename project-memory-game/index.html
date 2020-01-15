@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!--<meta name="viewport" content="width=device-width,initial-scale=1">-->
+    <meta name="description" content="Udacity Front End Developer Nanaodegree project, memory game">
+    <meta name="author" content="Rachel Albritton">
+    <title>Matching Game</title>
+
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="img/favicon-tree.ico" />
+
+    <!--CSS-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <div class="container" id="game">
+        <header>
+            <h1>Memory Game</h1>
+        </header>
+        <section class="score-panel">
+            <ul class="stars">
+                <li><i class="fa fa-star" id="star1"></i></li>
+                <li><i class="fa fa-star" id="star2"></i></li>
+                <li><i class="fa fa-star" id="star3"></i></li>
+            </ul>
+            <span>Moves: </span><span class="moves" id="countMoves">0</span>
+            <div class="score-panel-right">
+                <div class="timer" id="timer">00:00:00</div>
+                <div class="restart">
+                    <i class="fas fa-redo" id="repeat"></i>
+                </div>
+            </div>
+        </section>
+        <ul class="deck" id="deck"></ul>
+    </div>
+    <div class="winner" id="win">
+        <h1 class="winnerHeading">Congratulations!</h1>
+        <p>
+            <b>Total Moves:</b><span id="winMoves"></span><br>
+            <b>Total Time:</b><span id="winTime"></span><br>
+            <b>Stars Earned:</b><span id="winStars"></span> out of 3 Stars
+        </p>
+        <button class="playAgain" id="playAgain">Play Again</button>
+    </div>
+
+    <!--Javascript Files-->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

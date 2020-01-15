@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Rachel Albritton</title>
+    <!--Favicon-->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <!--Bootstrap 3.3.7 CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <!--Site specific css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!--Top Navigation-->
+    <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse bg-inverse">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="introduction">
+            <a class="navbar-brand" href="#">
+                <img id="logo" src="img/logo.png" alt="logo">
+              </a>
+            <h4 class="navtitle">Rachel Albritton</h4>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="dropdown-divider"></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="dropdown-divider"></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Selected Projects</a>
+                </li>
+                <li class="dropdown-divider"></li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#publications">Publications</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--End Navagation -->
+    <div class="container">
+        <div class="wrapper"></div>
+        <!--About Me Section-->
+        <div class="row">
+            <div class="col-sm-12">
+                <h4 id="aboutRow">About</h4>
+            </div>
+        </div>
+        <section class="anchor" id="about">
+            <div class="row">
+                <div class="col-md-6 push-md-3">
+                    <h5>Summary</h5>
+                    <p>​I am a GIS Developer/Analyst with three years of expereince in front-end application development and six years of experience 
+                        as a GIS Analyst. I’ve worked with non-profit agencies, academic institutions, federal and state agencies, and the private 
+                        sector. I am known for my detailed planning and ability to visualize projects from concept to completion, identify challenges 
+                        and assist in the development of effective and timely solutions. My current focus is on creating effective custom web GIS solutions for 
+                        a variety of business operations for the University of Utah. </p>
+                        
+                </div>
+                <div class="col-md-3 pull-md-6">
+                    <h5>Skills</h5>
+                    <ul>
+                        <li>Application Development</li>
+                        <li>Custom Tool Development</li>
+                        <li>Spatial Modeling</li>
+                        <li>Data Integration</li>
+                        <li>Collaboration</li>
+                        <li>Communication</li>
+                        <li>Cartography/Mapping</li>
+                    </ul>
+                    <h5>Sotware/Tools/API's</h5>
+                    <ul>
+                        
+                        <li>Javascript API 3.x, 4.x</li>
+                        <li>DOJO, JQuery</li>       
+                        <li>HTML, CSS</li>
+                        <li>GIT, GitHub, BitBucket</li>
+                        <li>Grunt, Gulp, Bower</li>
+                        <li>Intern, Jasmine</li>
+                        <li>SQL, Python</li>
+                        <li>ArcGIS Online, WAB</li>
+                        <li>ESRI 10.x, ArcGIS Pro</li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Education/Training</h5>
+                    <p>Independent Study: Udacity<br><em>Front-End Web Developer Nanodegree</em></p>
+                    <p>M.R. Geospatial Information Science & Technology<br><em>North Carolina State University</em>
+                        <p></p>
+                        <p>M.S. in Interdisciplinary Ecology, Concentration in GIS<br><em>University of Florida</em></p>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!--Selected Projects-->
+        <section class="anchor" id="projects">
+            <h4>Selected Projects</h4>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="thumbnail">
+                        <a href="https://batholith.fm.utah.edu/NOCnetwork/" target="_blank"><img class="prjthumb" src="img/network_team.jpg" alt="uofu network team"></a>
+                        <div class="caption">
+                            <h5 class="prjtitle">Network Team</h5>
+                            <p><em>Javascript, HTML, CSS</em></p>
+                            <p> Worked closely with the Network Engineer to create a mapping solution that would be eye-catching and easy to interpret for members at all levels of their organization. The end-result was a custom built application using ArcGIS
+                                Calcite Maps framework and ESRI's Javascript 4.x API. </p>
+                            <a href="https://it.utah.edu/node4/news/march_2017/network-news.php" target="_blank">Read More...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="thumbnail">
+                        <a href="https://map.utah.edu/?allShuttle=on" target="_blank"><img class="prjthumb" src="img/shuttletracker.jpg" alt="uofu campus map shuttletracker"></a>
+                        <div class="caption">
+                            <h5 class="prjtitle">Shuttle Tracker, Campus Map</h5>
+                            <p><em>Javascript, HTML, CSS</em></p>
+                            <p>Integrated a third party application to track live shuttle locations within the <a href="https://map.utah.edu" target="_blank">University of Utahs Campus Map.</a> Other contributions to the campus map includes the overall maintenace
+                                and updates of frontend code (Javascript, HTML, CSS) which is built on ESRI Javascript 3.x API.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                        <div class="thumbnail">
+                            <a href="https://batholithtest.fm.utah.edu/walk_after_dark/" target_blank><img class="prjthumb" src="img/WalkAfterDark.PNG" alt="Walk After Dark"></a>
+                            <div class="caption">
+                                <h5 class="prjtitle">Walk After Dark</h5>
+                                <p><em>Javascript, HTML, CSS</em></p>
+                                <p>Created a custom, mobile, crowdsourcing solution for faculty, staff, and students to report on lighting and safety issues around campus</p>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="thumbnail">
+                        <img class="prjthumb" src="img/oceanfront_viewshed.jpg" alt="Oceanfront Viewshed Tool">
+                        <div class="caption">
+                            <h5 class="prjtitle">Oceanfront Viewshed Analysis</h5>
+                            <p><em>Python, Custom Tool Development</em></p>
+                            <p>Built a custom GIS tool that could be used to run a viewshed analysis on thousands of sites for both pre-construction and post-construction timeframes. The output of the tool provided information on each parcels viewshed in
+                                degrees, allowing for further evaluation of the effects of dune construction on New Jersey shore residents oceanfront views.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="thumbnail">
+                        <a href="http://www.conservationgateway.org/Files/Documents/FINAL_Core_Forest_Report_06.18.13.pdf" target="_blank"><img class="prjthumb" src="img/sbr.jpg" alt="southern blueridge potential core forest"></a>
+                        <div class="caption">
+                            <h5 class="prjtitle">SBR Potential Core Forest</h5>
+                            <p><em>Suitability Modeling, Model Builder, Python</em></p>
+                            <p>The objective of this analysis was to delineate and describe potential core forest within the Southern Blue Ridge ecoregion for the purpose of informing conservation actions. Results were used to conduct a compatibility assessment
+                                for Nantahala-Pisgah National Forest Land and Resource Management Plan revision.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <!--Publications Section-->
+        <section class="anchor" id="publications">
+            <h4>Publications</h4>
+            <div class="row">
+                <div class="col-sm-12">
+                    <p><strong>Albritton, R.</strong> (eds. D. Ray and M. Sutton). 2013. Southern Blue Ridge: Core and Interior Forest Delineation. The Nature Conservancy. pp. 36. <a href="https://www.conservationgateway.org/Files/Documents/FINAL_Core_Forest_Report_06.18.13.pdf"
+                            target="_blank">Available Online</a></p>
+                    <p><strong>Albritton, R.</strong>, and Stein, T.V. 2010. Integrating Social and Natural Resource Information to Improve Planning for Motorized Recreation. Journal of Applied Geography, <a href="https://www.sciencedirect.com/science/article/pii/S0143622810000251"
+                            target="_blank">doi:10.1016/j.apgeog.2010.02.005</a></p>
+                    <p><strong>Albritton, R.</strong>, Stein, T.V., Thappa, B. 2009. Exploring Conflict and Tolerance within and between Off Highway Vehicle Recreationists. Journal of Park and Recreation Administration v27(4): 54-72.</p>
+                    <p>Freeman, J., <strong>Albritton, R.</strong>, and Jose, S. 2008. The Economics, Law, and Policy of Invasive Species Management in the United States : Responding to a Growing Crisis. In Invasive Plants and Forest Ecosystems. Taylor Francis,
+                        New York.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer class="footer text-center">
+        <div class="row">
+            <div class="col-sm-12">
+                <a href="mailto:rralbritton@gmail.com"><img class="footerimage" src="img/email.png" alt="email"></a>
+                <a href="https://github.com/rralbritton" target="_blank"><img class="footerimage" src="img/github.jpg" alt="github"></a>
+                <a href="http://www.linkedin.com/in/rralbritton" target="_blank"><img class="footerimage" src="img/linkedin.jpg" alt="linkedin"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+>>>>>>> df7a853e8d2047420555b301a2098647dab6fb67
